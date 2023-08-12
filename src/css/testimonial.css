@@ -1,0 +1,124 @@
+.testimonial-block {
+  margin: 4rem 2rem;
+}
+
+.testemonial-card {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 10px #eff0f0;
+  padding: 3rem;
+}
+
+.testemonial__image {
+  padding: 0;
+  position: relative;
+}
+
+.testemonial__image img {
+  border-radius: 8px;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.testemonial__image .icon-container {
+  position: absolute;
+  top: 20px;
+  right: -25px;
+}
+
+.testemonial__speech {
+  font-style: italic;
+  text-align: center;
+}
+
+.testemonial__speech::before {
+  content: open-quote;
+}
+
+.testemonial__speech::after {
+  content: close-quote;
+}
+
+.testemonial__sign {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  padding-left: 3rem;
+}
+
+.testemonial__sign .icon {
+  margin-right: 1rem;
+  align-self: center;
+  width: 50px;
+}
+
+.author__name {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-heading);
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.author__company {
+  font-size: 1.25rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media screen and (min-width: 668px) {
+  .testemonial__image .icon-container {
+    right: calc(35px);
+  }
+
+  .author__name {
+    font-size: 3rem;
+  }
+
+  .author__company {
+    font-size: 2rem;
+  }
+
+  .testemonial__speech {
+    font-size: 2.75rem;
+  }
+
+  .testemonial__image {
+    padding: 0 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testemonial-card {
+    flex-direction: row;
+  }
+
+  .testemonial__image {
+    margin-right: 5rem;
+    padding: 0;
+  }
+
+  .testemonial__image .icon-container {
+    right: -25px;
+  }
+
+  .testemonial__content,
+  .testemonial__image {
+    align-self: center;
+  }
+
+  .testemonial__image img {
+    width: 420px;
+    height: 360px;
+  }
+
+  .testemonial__speech,
+  .author__name {
+    font-size: 2.2rem;
+  }
+
+  .author__company {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,40 @@
+.callout {
+  background-color: var(--color-secondary);
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+  padding: 3rem;
+  margin: 5rem auto;
+  /* transform: translateY(-12rem); */
+}
+
+.callout__content {
+  margin-bottom: 2.5rem;
+}
+
+.callout__title {
+  color: inherit;
+  text-transform: capitalize;
+  margin: 0.5rem;
+}
+
+.callout__btn {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .callout {
+    display: flex;
+    text-align: left;
+  }
+
+  .callout__btn {
+    align-self: center;
+    width: 25%;
+    padding: 0;
+    margin-left: 4rem;
+  }
+}

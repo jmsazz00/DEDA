@@ -1,0 +1,27 @@
+.trainings__list {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  row-gap: 0.8rem !important;
+}
+
+.trainings__filter {
+  max-width: 950px;
+  position: relative;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.trainings__warning {
+  color: #dc3545;
+}
+
+@media (min-width: 1028px) {
+  .trainings-block .link__heading {
+    margin-bottom: 0;
+  }
+
+  .trainings__filter {
+    text-align: end;
+  }
+}

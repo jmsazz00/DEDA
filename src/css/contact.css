@@ -1,0 +1,179 @@
+.contact {
+  font-family: Montserrat, sans-serif;
+}
+
+.contact__header {
+  padding: 2rem 6rem;
+}
+
+.contact .link__heading {
+  margin-bottom: 0;
+}
+
+.contacts-boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px 0;
+  color: rgb(17, 17, 17);
+  margin: 1.25rem;
+  height: 100%;
+  flex: 0 0 23%;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+  font-size: 2.1rem;
+}
+
+.contact__body {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4rem;
+  padding: 2rem 4rem;
+}
+
+.greet {
+  text-align: center;
+}
+
+span[class^="fa"] {
+  color: #5b86e5;
+}
+
+.social-apps span {
+  color: #fff;
+  margin: 0 1.5rem;
+}
+
+.greet__title {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 5rem;
+  font-family: Montserrat, sans-serif;
+  margin: 0 0 2rem;
+  font-weight: normal;
+}
+
+.greet__liability {
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 4rem;
+}
+
+.contact__body label {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.contact__btn {
+  border: 0;
+}
+
+.contact__btn:hover {
+  background-color: var(--color-secondary);
+}
+
+.contact__body .form-group {
+  margin: 2rem 0;
+  border-bottom: 2px solid #fff;
+}
+
+.contact__body textarea {
+  resize: vertical;
+}
+
+.contact__body textarea,
+.contact__body input {
+  background-color: transparent;
+  border: 0;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .contact .contact__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 8rem 8rem 3rem;
+    clip-path: none;
+  }
+
+  .contact__title {
+    font-size: 2.4rem;
+  }
+
+  .contacts-boxes {
+    flex-direction: row;
+    transform: translateY(12%);
+    height: 300px;
+  }
+
+  .contact__header {
+    padding: 0 5rem;
+  }
+}
+
+.Toastify__toast--info {
+  /* Customize the background color of the toast */
+  background-color: #3b82f6; /* Change the background color to a lighter blue */
+  color: #ffffff; /* Set the text color to white to ensure readability */
+  font-family: Poppins, Arial, sans-serif; /* Optional: Change the font-family */
+  border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+  max-width: 300px; /* Optional: Limit the width of the toast */
+}
+
+.Toastify__toast-body {
+  /* Optional: Add padding to the toast content */
+  padding: 5px;
+}
+
+.Toastify__progress-bar {
+  /* Customize the progress bar color */
+  background-color: #a3bffb; /* Change the progress bar color to a lighter blue */
+}
+
+/* Customize the close button appearance */
+.Toastify__close-button {
+  color: #ffffff; /* Change the color of the close button icon */
+  opacity: 1; /* Make the close button always fully visible */
+}
+
+.Toastify__close-button--default {
+  /* Add a background color to the close button */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* You can change this color to any desired color */
+  border-radius: 50%; /* Optional: Make the close button circular */
+  padding: 8px; /* Optional: Add some padding to the close button */
+}
+
+.Toastify__close-button--default:hover {
+  /* Change the close button background color on hover */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* You can change this color to any desired color */
+}

@@ -1,0 +1,40 @@
+.intro-block {
+  background-color: #f3f5f9;
+}
+
+.intro {
+  padding: 0.2rem 0 4rem;
+}
+
+.intro__header {
+  margin-bottom: 4rem;
+}
+
+.intro__title {
+  background: linear-gradient(to bottom right, #59a5d8, #63c96c);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.intro__paragraph {
+  max-width: 850px;
+  margin: 2.6rem auto;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.intro__paragraph svg {
+  position: absolute;
+  left: 3px;
+  top: 4px;
+}
+
+.intro__paragraph::after {
+  content: "";
+  height: 1px;
+  width: 90%;
+  background-color: lightgray;
+  position: absolute;
+  bottom: -14px;
+  left: 5%;
+}
