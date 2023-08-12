@@ -1,5 +1,6 @@
 .intro-block {
   background-color: #f3f5f9;
+  padding-top: 2rem !important;
 }
 
 .intro {
@@ -31,7 +32,7 @@
 
 .intro__paragraph::after {
   content: "";
-  height: 1px;
+  height: 0.1px;
   width: 90%;
   background-color: lightgray;
   position: absolute;
