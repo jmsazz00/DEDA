@@ -37,7 +37,7 @@ html {
 body {
   color: var(--color-body);
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   max-width: 100vw;
   overflow-x: hidden;
