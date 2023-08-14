@@ -13,19 +13,19 @@ function Intro() {
           </h1>
         </div>
         <div className="intro__body">
-          <p className="intro__paragraph">
+          <p className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             voluptate, labore voluptas quaerat voluptatum repudiandae
             accusantium. Obcaecati quae voluptate vero.
           </p>
 
-          <p className="intro__paragraph">
+          <p className="intro__paragraph" data-aos="fade-left">
             <PiArrowFatLinesRightFill style={style} />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo
             iste eius voluptas expedita.
           </p>
-          <p className="intro__paragraph">
+          <p className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Consequuntur, earum! Expedita, facere aperiam! Facilis et incidunt

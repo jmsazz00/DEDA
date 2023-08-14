@@ -8,10 +8,12 @@ function Trainings() {
   const [allTrainings, setTrainings] = useState(trainings);
   const [filterType, setFilter] = useState("");
 
-  const dropdownOptions = ["Maintenance", "Mechanics", "Electrical"];
+  const dropdownOptions = ["All", "Maintenance", "Mechanics", "Electrical"];
 
   const filteredTrainings = filterType
-    ? allTrainings.filter((tr) => tr.type === filterType)
+    ? filterType === "All"
+      ? allTrainings
+      : allTrainings.filter((tr) => tr.type === filterType)
     : allTrainings;
 
   const handleSelect = (it: string) => {

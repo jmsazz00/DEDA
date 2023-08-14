@@ -41,3 +41,18 @@
 .hero-container .image__title {
   color: #fff;
 }
+
+.hero-container .logo-div {
+  background: linear-gradient(to top, #f0fff8, #e0f9e0);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-container .logo-div img {
+  scale: 2.5;
+  translate: 0 -8px;
+  height: 50px;
+  width: 50px;
+}

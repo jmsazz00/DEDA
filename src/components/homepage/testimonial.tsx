@@ -15,7 +15,7 @@ const TestimonialCard = ({ president }: Props) => {
 
   return (
     <section className="block testimonial-block">
-      <div className="testemonial-card container">
+      <div className="testemonial-card container" data-aos="zoom-out">
         <div className="testemonial__image">
           <img src={president.image} alt="A smiling client" />
           <span className="icon-container icon-container--accent">

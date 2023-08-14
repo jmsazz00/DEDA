@@ -46,9 +46,9 @@ const Hero: React.FC = () => {
   return (
     <section>
       <div className="hero-container container">
-        {/* <picture className="logo-container">
+        <picture className="logo-div">
           <img src="./images/logo.png" />
-        </picture> */}
+        </picture>
         <div className="image-container" onTouchMove={handleScroll}>
           {images.map((image, idx) => (
             <div
