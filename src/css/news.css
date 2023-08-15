@@ -6,3 +6,9 @@
 .news__header .link__heading {
   margin-top: 0;
 }
+
+.news__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

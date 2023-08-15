@@ -31,7 +31,7 @@ function NewsBlock() {
         id={id}
         title={title}
         date={date}
-        image={image}
+        image={"./images/" + image}
       />
       <div className="news-item__content">
         {content}{" "}

@@ -46,7 +46,7 @@
 }
 
 .greet {
-  text-align: center;
+  text-align: left;
 }
 
 span[class^="fa"] {
@@ -128,10 +128,18 @@ span[class^="fa"] {
   .contact__header {
     padding: 0 5rem;
   }
+
+  .greet {
+    text-align: center;
+  }
+}
+
+.Toastify__toast-container {
+  top: 10px;
+  right: 10px !important;
 }
 
 .Toastify__toast--info {
-  /* Customize the background color of the toast */
   background-color: #3b82f6; /* Change the background color to a lighter blue */
   color: #ffffff; /* Set the text color to white to ensure readability */
   font-family: Poppins, Arial, sans-serif; /* Optional: Change the font-family */
