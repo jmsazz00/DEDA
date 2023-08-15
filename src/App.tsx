@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar />
-      {/* <HeadUp /> */}
+      <HeadUp />
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="home" element={<Homepage />} />

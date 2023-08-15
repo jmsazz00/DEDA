@@ -1,7 +1,7 @@
 const news = [
   {
     id: 1,
-    image: "team.jpg",
+    image: "team1.jpg",
     title: "Head Officer hired",
     date: "24 May 2023",
     content: (

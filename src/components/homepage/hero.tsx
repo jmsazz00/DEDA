@@ -46,9 +46,12 @@ const Hero: React.FC = () => {
   return (
     <section>
       <div className="hero-container container">
-        <picture className="logo-div">
-          <img src="./images/logo.png" />
-        </picture>
+        <div className="hero__header">
+          <picture className="logo-div">
+            <img src="./images/logo.png" />
+          </picture>
+          <span className="btn btn--primary hero__span">NEW</span>
+        </div>
         <div className="image-container" onTouchMove={handleScroll}>
           {images.map((image, idx) => (
             <div

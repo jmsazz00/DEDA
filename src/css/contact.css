@@ -135,8 +135,9 @@ span[class^="fa"] {
 }
 
 .Toastify__toast-container {
+  position: absolute;
   top: 10px;
-  right: 10px !important;
+  right: 0 !important;
 }
 
 .Toastify__toast--info {

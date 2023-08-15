@@ -51,7 +51,7 @@ function Contact() {
   }, []);
 
   return (
-    <section>
+    <section style={{position: "relative"}}>
       <div className="container">
         <div className="contact">
           <h2 className="link__heading" data-aos="flip-up">
