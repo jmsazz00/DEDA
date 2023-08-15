@@ -1,0 +1,12 @@
+[
+    {
+        "sources" : true,
+        "jpg": "./images/team.jpg",
+        "src": "./images/team.jpg"
+    },
+    {
+        "sources" : true,
+        "jpg": "./images/team1.jpg",
+        "src": "./images/team1.jpg"
+    }
+]
