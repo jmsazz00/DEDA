@@ -23,7 +23,7 @@
   justify-content: center;
 }
 
-li {
+.navbar li {
   margin: 0 auto !important;
   font-size: 1.55rem;
 }
@@ -62,7 +62,7 @@ a i {
 }
 
 @media screen and (min-width: 768px) {
-  li {
+  .navbar li {
     margin: 0 1.5rem;
     font-size: 1.8rem;
   }

@@ -132,12 +132,18 @@ span[class^="fa"] {
   .greet {
     text-align: center;
   }
+
+  .Toastify__toast-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 .Toastify__toast-container {
   position: absolute;
   top: 10px;
-  right: 0 !important;
+  right: 10px;
 }
 
 .Toastify__toast--info {
@@ -174,7 +180,7 @@ span[class^="fa"] {
     0.2
   ); /* You can change this color to any desired color */
   border-radius: 50%; /* Optional: Make the close button circular */
-  padding: 8px; /* Optional: Add some padding to the close button */
+  padding: 8px;
 }
 
 .Toastify__close-button--default:hover {

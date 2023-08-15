@@ -45,7 +45,7 @@ const News = () => {
             />
           ))}
         </div>
-        <div className="news__pagination">
+        <div>
           <Pagination
             currentPage={currentPage}
             onPageChange={handlePage}
