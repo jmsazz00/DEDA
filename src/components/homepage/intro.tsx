@@ -20,11 +20,12 @@ function Intro() {
             accusantium. Obcaecati quae voluptate vero.
           </p>
 
-          <p className="intro__paragraph" data-aos="fade-left">
+          <p className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo
             iste eius voluptas expedita.
           </p>
+          
           <p className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
