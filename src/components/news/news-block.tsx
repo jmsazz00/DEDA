@@ -3,16 +3,14 @@ import news from "../../data/news";
 import PageError from "../404-error";
 import NewsCard from "./news-card";
 import "../../css/news-block.css";
-import { useEffect } from "react";
+import useScrollToTop from "../../hooks/useScrollToTop";
 
 function NewsBlock() {
   const params = useParams();
   const ID = params.id as string;
   const navigate = useNavigate();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  useScrollToTop();
 
   const newsBlock = news.find((n) => n.id === parseInt(ID));
 

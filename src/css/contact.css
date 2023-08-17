@@ -135,7 +135,7 @@ span[class^="fa"] {
 }
 
 .Toastify__toast-container {
-  top: 0;
+  top: 10px;
   right: 0;
 }
 

@@ -105,13 +105,13 @@ function Contact() {
             <div className="greet">
               <h2 className="greet__title">Get in touch</h2>
               <p className="greet__liability">
-                &gt; By getting in touch with us, you'll be contributing to
-                free training sessions that equip Lebanese youth with essential
+                &gt; By getting in touch with us, you'll be contributing to free
+                training sessions that equip Lebanese youth with essential
                 skills and help them find suitable jobs.
                 <br />
                 <hr />
-                &gt; Together, we can uplift communities, unleash potential,
-                and pave the way for a stronger, more prosperous generation.
+                &gt; Together, we can uplift communities, unleash potential, and
+                pave the way for a stronger, more prosperous generation.
                 <br />
                 <hr />
                 &gt; Your generosity can spark a positive impact that ripples
