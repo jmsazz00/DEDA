@@ -31,6 +31,7 @@
 .testemonial__speech {
   font-style: italic;
   text-align: center;
+  font-size: 1.5rem !important;
 }
 
 .testemonial__speech::before {
@@ -110,10 +111,9 @@
 
   .testemonial__image img {
     width: 420px;
-    height: 360px;
+    height: 380px;
   }
 
-  .testemonial__speech,
   .author__name {
     font-size: 2.2rem;
   }

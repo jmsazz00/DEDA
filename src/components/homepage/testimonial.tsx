@@ -1,5 +1,6 @@
 import { FaQuoteRight } from "react-icons/fa";
 import "../../css/testimonial.css";
+import ExpandableText from "./expandableText";
 
 interface Props {
   president: {
@@ -23,7 +24,9 @@ const TestimonialCard = ({ president }: Props) => {
           </span>
         </div>
         <div className="testemonial__content">
-          <p className="testemonial__speech">{president.speech}</p>
+          <p className="testemonial__speech">
+            <ExpandableText maxChars={450}>{president.speech}</ExpandableText>
+          </p>
           <div className="testemonial__sign">
             <img className="icon" src="./images/line.svg" alt="" />
             <div className="testemonial__author">

@@ -32,17 +32,17 @@ function Contact() {
     {
       icon: <FiPhone style={style} />,
       title: "phone number",
-      desc: "+962 71 326 244",
+      desc: " +961 01 883 939 - 01 901 271",
     },
     {
       icon: <FiMail style={style} />,
       title: "email",
-      desc: "jmsaz@gmail.com",
+      desc: "n.naccache1@gmail.com (Nabil Naccache)",
     },
     {
       icon: <FiMapPin style={style} />,
-      title: "our main office",
-      desc: "Bauchrieh, Beirut",
+      title: "address",
+      desc: "Beirut, Bauchrieh, Barbar Abou Jaoudeh street, Soft solutions’ building, 3rd floor",
     },
   ];
 
@@ -63,7 +63,7 @@ function Contact() {
                 <div key={b.title} data-aos="zoom-in" className="contact-box">
                   <span>{b.icon}</span>
                   <h3 className="contact__title">{b.title}</h3>
-                  <p className="desc">{b.desc}</p>
+                  <p className="contact__desc">{b.desc}</p>
                 </div>
               ))}
             </div>

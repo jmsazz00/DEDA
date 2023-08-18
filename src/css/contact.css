@@ -25,7 +25,8 @@
   color: rgb(17, 17, 17);
   margin: 1.25rem;
   height: 100%;
-  flex: 0 0 23%;
+  flex: 0 0 26%;
+  overflow: hidden;
 }
 
 .contact__title {
@@ -122,7 +123,7 @@ span[class^="fa"] {
   .contacts-boxes {
     flex-direction: row;
     transform: translateY(12%);
-    height: 300px;
+    height: 318px;
   }
 
   .contact__header {
