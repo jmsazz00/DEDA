@@ -13,10 +13,10 @@ function ExpandableText({ children, maxChars = 50 }: Props) {
   let textToShow: string = children.substring(0, maxChars) + "...";
 
   return (
-    <p style={{ display: "inline" }}>
+    <div style={{ display: "inline" }}>
       {show ? children : textToShow}
       <button onClick={() => setShow(!show)}>{show ? "Less" : "More"}</button>
-    </p>
+    </div>
   );
 }
 

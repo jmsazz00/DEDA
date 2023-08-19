@@ -8,7 +8,7 @@
 }
 
 .about-us-container {
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 3rem;
   background: linear-gradient(135deg, #e6f7ff, #b3e0ff);
@@ -47,7 +47,7 @@
 
 .about-pic,
 .about-block {
-  max-width: 500px;
+  max-width: 550px;
   margin: 3rem auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

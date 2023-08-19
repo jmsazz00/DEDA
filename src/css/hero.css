@@ -76,9 +76,9 @@
   height: 100%;
 }
 
-.hero__span{
+.hero__span {
   translate: -40px;
   align-self: center;
-  padding: .1rem .8rem !important;
+  padding: 0.1rem 0.8rem !important;
   font-size: 1.4rem !important;
 }

@@ -8,14 +8,19 @@ interface Image {
 
 const images: Image[] = [
   {
-    url: "./images/team1.jpg",
-    heading: "Conference meeting",
-    description: "Description 1",
+    url: "./images/p3.jpg",
+    heading: "Practical action",
+    description: "Ground experience",
   },
   {
-    url: "./images/team.jpg",
-    heading: "Regional reunion",
-    description: "Description 2",
+    url: "./images/p1.jpg",
+    heading: "Constant assistance",
+    description: "Always guiding and instructing",
+  },
+  {
+    url: "./images/p4.jpg",
+    heading: "Learning application",
+    description: "From theory to reality",
   },
 ];
 

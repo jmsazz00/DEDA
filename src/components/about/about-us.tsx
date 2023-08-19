@@ -7,7 +7,7 @@ import pics from "../../data/pics.json";
 const About = () => {
   let [index, setIndex] = useState(0);
 
-  const [h1, h2, h3] = ["Who we are", "Our Mission", "Our Goals"];
+  const [h1, h2, h3] = ["Who we are", "Our Activities", "Our Services"];
   const msg1 = useCapitalizer(h1);
   const msg2 = useCapitalizer(h2);
   const msg3 = useCapitalizer(h3);
@@ -77,7 +77,7 @@ const About = () => {
               return (
                 <picture className={"about__img " + cls}>
                   {aw.sources && (
-                    <source type="./png" srcSet={`${aw.jpg} 1x`} />
+                    <source type="./jpg" srcSet={`${aw.jpg} 1x`} />
                   )}
                   <img src={aw.src} alt="" />
                 </picture>
@@ -98,10 +98,13 @@ const About = () => {
           </header>
           <div className="about__body">
             <p className="about__text" data-aos="fade-left">
-              Our NGO is a team of passionate individuals committed to making a
-              difference in the lives of Lebanese youth. With a shared vision
-              and mission, we work tirelessly to provide opportunities for
-              personal and professional growth.
+              In addition to carrying out the necessary studies and statistics
+              to determine the employers' needs for efficient manpower, we aim
+              at providing trainees with the practical, linguistic, digital,
+              safety and life skills required by employers. By organizing and
+              implementing various social, health, sports and folk activities,
+              we assist the society to ensure its proper living in a clean,
+              healthy and safe environment free from all forms of pollution.
             </p>
             <div className="about__icon">
               <span>
@@ -122,16 +125,34 @@ const About = () => {
             <ul className="goals-list">
               <li data-aos="fade-left">
                 <span className="checkmark">✓</span>
-                <b>Empower</b> Lebanese youth and equip them with the requested
-                skills.
+                <b>Free</b> trainings for Lebanese youth, in order to be able to
+                secure their future.
               </li>
               <li data-aos="fade-right">
                 <span className="checkmark">✓</span>
-                <b>Respond</b> to the needs of industrialists and employers.
+                Full <b>cooperation</b> with employers to determine their needs
+                and develop the training courses’ curricula accordingly.
               </li>
               <li data-aos="fade-left">
                 <span className="checkmark">✓</span>
-                <b>Help</b> Lebanese youth find suitable jobs.
+                <b>Compentent</b> trainers who are known for their knowledge and
+                practical experience.
+              </li>
+              <li data-aos="fade-right">
+                <span className="checkmark">✓</span>
+                <b>Life</b> skills, work organization, personal and public
+                safety, providing first aids in addition to the purely technical
+                topics.
+              </li>
+              <li data-aos="fade-left">
+                <span className="checkmark">✓</span>
+                <b>Transportation</b> allowance for each training day
+                implemented in the Association’s premises.
+              </li>
+              <li data-aos="fade-right">
+                <span className="checkmark">✓</span>
+                <b>Certifcate</b> with a mention with what the course included
+                to each trainee who finishes the training.
               </li>
             </ul>
           </div>

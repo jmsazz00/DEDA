@@ -3,6 +3,7 @@
   margin: 1rem;
   border-radius: 5px;
   overflow: hidden;
+  height: max-content;
 }
 
 .accordion-header {
@@ -37,13 +38,14 @@
   height: 0;
   max-height: 0;
   padding: 0;
+  font-size: 1.45rem;
   transition: height 0.3s ease-in-out, max-height 0.3s ease-in-out,
     padding 0.2s ease-in-out;
 }
 
 .accordion.expanded .accordion-content {
   height: 100%;
-  max-height: 100vh;
+  max-height: 300vh;
   padding: 1rem;
 }
 

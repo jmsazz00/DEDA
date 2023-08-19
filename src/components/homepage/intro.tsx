@@ -14,27 +14,23 @@ function Intro() {
           </h1>
         </div>
         <div className="intro__body">
-          <p className="intro__paragraph" data-aos="fade-right">
-            <PiArrowFatLinesRightFill style={style} />
-            <Accordion
-              title="Objectives"
-              content={
-                <>
-                  The Development and Environmental Development Association{" "}
-                  <b>(DEDA) </b>
-                  aims at empowering youth, workers to acquire skills and
-                  competencies that let them to increase their employability and
-                  build their future. The Association enhances its cooperation
-                  with the industrialists and employers to determine their needs
-                  in skilled manpower so that the training courses it delivers
-                  respond to the requirements of the employers, the matter that
-                  results mostly in employing the trained people.
-                </>
-              }
-            />
+          <p
+            className="intro__paragraph"
+            style={{ fontStyle: "italic" }}
+            data-aos="fade-right"
+          >
+            The Development and Environmental Development Association{" "}
+            <b>(DEDA) </b>
+            aims at empowering youth, workers to acquire skills and competencies
+            that let them to increase their employability and build their
+            future. The Association enhances its cooperation with the
+            industrialists and employers to determine their needs in skilled
+            manpower so that the training courses it delivers respond to the
+            requirements of the employers, the matter that results mostly in
+            employing the trained people.
           </p>
 
-          <p className="intro__paragraph" data-aos="fade-right">
+          <div className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
               title="Financial Resources"
@@ -63,9 +59,9 @@ function Intro() {
                 </>
               }
             />
-          </p>
+          </div>
 
-          <p className="intro__paragraph" data-aos="fade-right">
+          <div className="intro__paragraph" data-aos="fade-right">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
               title="Importance of organizing trainings"
@@ -99,7 +95,49 @@ function Intro() {
                 </>
               }
             />
-          </p>
+          </div>
+
+          <div className="intro__paragraph" data-aos="fade-right">
+            <PiArrowFatLinesRightFill style={style} />
+            <Accordion
+              title="Strategy of organizing trainings"
+              content={
+                <>
+                  <p>
+                    As a result of the economic crises and the unprecedented
+                    deteriorating situation of the country, and as a result of
+                    adopting the principle of online learning without prior
+                    preparation, cohorts of graduates from vocational and
+                    technical education became holding diplomas without
+                    acquiring the skills required to carry out their duties or
+                    to practice their professions.
+                  </p>
+                  <p>
+                    To address this situation, the Association works hand in
+                    hand with employers, to organize special training courses
+                    for graduates to provide them with the practical attitudes
+                    that industrialists and employers specifically require to
+                    operate their factories.
+                  </p>
+                  <p>
+                    The Association sets the training curriculum in agreement
+                    with a group of coherent industrialists, and the trainees
+                    are selected in advance in agreement with the interested
+                    employers to guarantee the employment of many of the
+                    trainees who follow the training course.
+                  </p>
+                  <p>
+                    {" "}
+                    Noting that <b>Mr. Rafi Manoukian</b> is the primary
+                    financier of the Association for his confidence in the
+                    Association and his conviction of the need to empower
+                    Lebanese youth, at this difficult time that the state’s
+                    educational institutions are going through
+                  </p>
+                </>
+              }
+            />
+          </div>
         </div>
       </div>
     </section>
