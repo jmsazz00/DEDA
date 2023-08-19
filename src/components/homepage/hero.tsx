@@ -26,6 +26,9 @@ const images: Image[] = [
 
 const Hero: React.FC = () => {
   const [currentImageIdx, setCurrentImageIdx] = useState(0);
+  const [startX, setStartX] = useState(0);
+  const [startY, setStartY] = useState(0);
+
   let interval: ReturnType<typeof setTimeout>;
 
   useEffect(() => {
@@ -42,10 +45,23 @@ const Hero: React.FC = () => {
     setCurrentImageIdx((prevIdx) => (prevIdx + 1) % images.length);
   };
 
-  const handleScroll = (e: React.TouchEvent<HTMLDivElement>) => {
-    e.preventDefault();
-    clearInterval(interval);
-    scrollToNextImage();
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    setStartX(e.touches[0].clientX);
+    setStartY(e.touches[0].clientY);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    const endX = e.changedTouches[0].clientX;
+    const endY = e.changedTouches[0].clientY;
+    const deltaX = endX - startX;
+    const deltaY = endY - startY;
+
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+      if (deltaX > 0) {
+        clearInterval(interval);
+        scrollToNextImage();
+      }
+    }
   };
 
   return (
@@ -57,7 +73,11 @@ const Hero: React.FC = () => {
           </picture>
           <span className="btn btn--primary hero__span">NEW</span>
         </div>
-        <div className="image-container" onTouchMove={handleScroll}>
+        <div
+          className="image-container"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           {images.map((image, idx) => (
             <div
               key={idx}

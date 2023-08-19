@@ -14,11 +14,7 @@ function Intro() {
           </h1>
         </div>
         <div className="intro__body">
-          <p
-            className="intro__paragraph"
-            style={{ fontStyle: "italic" }}
-            data-aos="fade-right"
-          >
+          <p className="intro__paragraph" style={{ fontStyle: "italic" }}>
             The Development and Environmental Development Association{" "}
             <b>(DEDA) </b>
             aims at empowering youth, workers to acquire skills and competencies
@@ -30,7 +26,7 @@ function Intro() {
             employing the trained people.
           </p>
 
-          <div className="intro__paragraph" data-aos="fade-right">
+          <div className="intro__paragraph">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
               title="Financial Resources"
@@ -61,7 +57,7 @@ function Intro() {
             />
           </div>
 
-          <div className="intro__paragraph" data-aos="fade-right">
+          <div className="intro__paragraph">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
               title="Importance of organizing trainings"
@@ -97,7 +93,7 @@ function Intro() {
             />
           </div>
 
-          <div className="intro__paragraph" data-aos="fade-right">
+          <div className="intro__paragraph">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
               title="Strategy of organizing trainings"
