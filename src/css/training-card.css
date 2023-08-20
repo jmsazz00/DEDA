@@ -10,7 +10,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   transform: scale(1);
-  transition: transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .training-card:hover {
@@ -36,7 +36,8 @@
 }
 
 .max-trainees,
-.collaborating-companies {
+.collaborating-companies,
+.training-duration {
   font-size: 1.4rem;
   font-weight: bold;
   color: #555;
@@ -44,7 +45,8 @@
 }
 
 .max-trainees::before,
-.collaborating-companies::before {
+.collaborating-companies::before,
+.training-duration::before {
   content: "\2022";
   display: inline-block;
   margin-right: 0.5rem;
@@ -71,7 +73,9 @@ button.donate-button {
   background-color: #ff4d4d;
   border-radius: 4px;
   padding: 1rem 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  width: 85%;
+  margin: 1rem auto;
   transition: background-color 0.3s;
 }
 
@@ -79,19 +83,6 @@ button.donate-button:hover {
   background-color: #e60000;
 }
 
-/* Description Toggle Button */
-.description-toggle {
-  background-color: #f0f0f0;
-  border: none;
-  border-radius: 4px;
-  padding: 0.6rem 1rem;
-  font-size: 1.4rem;
-  cursor: pointer;
-  margin-bottom: 0.5rem;
-  color: #333;
-  transition: background-color 0.3s;
-}
-
-.description-toggle:hover {
-  background-color: #e6e6e6;
+.underline {
+  text-decoration: underline;
 }

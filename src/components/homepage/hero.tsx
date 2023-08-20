@@ -8,19 +8,19 @@ interface Image {
 
 const images: Image[] = [
   {
+    url: "./images/meet2.jpg",
+    heading: "Professional trainings",
+    description: "Concise instructions",
+  },
+  {
+    url: "./images/meet1.jpg",
+    heading: "Constant assistance",
+    description: "Always guiding",
+  },
+  {
     url: "./images/p3.jpg",
     heading: "Practical action",
     description: "Ground experience",
-  },
-  {
-    url: "./images/p1.jpg",
-    heading: "Constant assistance",
-    description: "Always guiding and instructing",
-  },
-  {
-    url: "./images/p4.jpg",
-    heading: "Learning application",
-    description: "From theory to reality",
   },
 ];
 
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
     const deltaY = endY - startY;
 
     if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
-      if (deltaX > 0) {
+      if (Math.abs(deltaX) > 0) {
         clearInterval(interval);
         scrollToNextImage();
       }

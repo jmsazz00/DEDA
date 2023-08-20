@@ -114,7 +114,7 @@ function Contact() {
                 pave the way for a stronger, more prosperous generation.
                 <br />
                 <hr />
-                &gt; Your generosity can spark a positive impact that ripples
+                &gt; Your participation can spark a positive impact that ripples
                 through generations. Contact us today and be part of this
                 journey.
               </p>

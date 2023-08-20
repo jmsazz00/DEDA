@@ -45,7 +45,7 @@
 .hero__header {
   position: relative;
   width: 100vw;
-  height: 65px;
+  height: 55px;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -67,12 +67,12 @@
 }
 
 .logo-div {
-  width: 65px;
+  width: 55px;
 }
 
 .logo-div img {
   scale: 2.7;
-  translate: 58px -10px;
+  translate: 48px -7px;
   height: 100%;
 }
 

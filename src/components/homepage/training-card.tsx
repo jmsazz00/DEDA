@@ -7,7 +7,8 @@ interface Props {
   title: string;
   maxTrainees: number;
   collaboratingCompanies: string[];
-  description: string;
+  description: string | JSX.Element;
+  duration: string;
 }
 
 const TrainingCard = ({
@@ -16,6 +17,7 @@ const TrainingCard = ({
   maxTrainees,
   collaboratingCompanies,
   description,
+  duration,
 }: Props) => {
   const [showDescription, setShowDescription] = useState(false);
 
@@ -33,25 +35,23 @@ const TrainingCard = ({
       <div className="training-info">
         <h3 className="training-title">{title}</h3>
         <div className="trainees-companies-container">
-          <p className="max-trainees">Max Trainees: {maxTrainees}</p>
+          <p className="max-trainees">
+            <span className="underline">Max Trainees:</span> {maxTrainees}
+          </p>
           <p className="collaborating-companies">
-            Collaborating Companies: {collaboratingCompanies.join(", ")}
+            <span className="underline">Collaborating Companies:</span>
+            <br />
+            {collaboratingCompanies.join(", ")}
+          </p>
+          <p className="training-duration">
+            <span className="underline">Duration:</span> {duration}
           </p>
         </div>
-        <button className="description-toggle" onClick={toggleDescription}>
+        <button className="btn donate-button" onClick={toggleDescription}>
           {showDescription ? "Hide Description" : "Show Description"}
         </button>
 
         <div className="training-description">{description}</div>
-        <button
-          onClick={() => {
-            navigate("/contact");
-            window.scrollTo(0, 0);
-          }}
-          className="btn btn--block donate-button"
-        >
-          Donate
-        </button>
       </div>
     </div>
   );

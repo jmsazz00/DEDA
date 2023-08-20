@@ -8,12 +8,12 @@ function Trainings() {
   const [allTrainings, setTrainings] = useState(trainings);
   const [filterType, setFilter] = useState("");
 
-  const dropdownOptions = ["All", "Maintenance", "Mechanics", "Electrical"];
+  const dropdownOptions = ["All", "2022", "2023", "2024"];
 
   const filteredTrainings = filterType
     ? filterType === "All"
       ? allTrainings
-      : allTrainings.filter((tr) => tr.type === filterType)
+      : allTrainings.filter((tr) => tr.year === filterType)
     : allTrainings;
 
   const handleSelect = (it: string) => {
@@ -44,6 +44,7 @@ function Trainings() {
                 maxTrainees={tr.maxTrainees}
                 description={tr.description}
                 collaboratingCompanies={tr.collaboratingCompanies}
+                duration={tr.duration}
               />
             ))
           ) : (
