@@ -19,13 +19,17 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+.hero-container .image-slide:nth-of-type(3) {
+  background-position: center;
 }
 
 .hero-container .image-slide.active {
@@ -82,4 +86,14 @@
   padding: 0.1rem 0.8rem !important;
   font-size: 1.4rem !important;
   background-color: rgb(102, 218, 102) !important;
+}
+
+@media (min-width: 1028px) {
+  .hero-container .image-slide {
+    background-position: center;
+  }
+
+  .hero-container .image-slide:nth-of-type(3) {
+    background-position-y: 48%;
+  }
 }

@@ -47,7 +47,7 @@ h2,
 h3 {
   color: var(--color-heading);
   font-family: Cairo, Helvetica, sans-serif;
-  letter-spacing: -1px;
+  letter-spacing: -0.8px;
   word-spacing: 2px;
   line-height: 1.1;
 }
@@ -102,7 +102,7 @@ h3 {
 
 .block--skewed-right {
   padding-bottom: 5rem;
-  clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 97%, 0% 100%);
 }
 
 .block--dark {

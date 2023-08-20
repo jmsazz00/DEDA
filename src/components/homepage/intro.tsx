@@ -14,7 +14,11 @@ function Intro() {
           </h1>
         </div>
         <div className="intro__body">
-          <p className="intro__paragraph" style={{ fontStyle: "italic" }}>
+          <p
+            className="intro__paragraph"
+            data-aos="fade-right"
+            style={{ fontStyle: "italic" }}
+          >
             The Development and Environmental Development Association{" "}
             <b>(DEDA) </b>
             aims at empowering youth, workers to acquire skills and competencies

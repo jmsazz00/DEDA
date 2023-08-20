@@ -36,6 +36,7 @@ function Trainings() {
           />
         </div>
         <div className="trainings__list grid grid--2x grid--3x">
+          {/* remove the grid effect if one or two */}
           {filteredTrainings.length > 0 ? (
             filteredTrainings.map((tr) => (
               <TrainingCard

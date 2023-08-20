@@ -32,6 +32,7 @@
   font-style: italic;
   text-align: center;
   font-size: 1.5rem !important;
+  margin: 1.25rem 0;
 }
 
 .testemonial__speech::before {
@@ -83,6 +84,7 @@
 
   .testemonial__speech {
     font-size: 2.75rem;
+    margin-top: 0;
   }
 
   .testemonial__image {
