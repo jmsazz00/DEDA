@@ -141,7 +141,7 @@
 
 .about__list {
   max-height: 600px;
-  height: 70vh;
+  height: 50vh;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -157,12 +157,12 @@
 
 .about__img {
   position: absolute;
-  height: 70vh;
+  height: 50vh;
   width: 400px;
   left: 50%;
   margin-left: -200px;
   top: 50%;
-  margin-top: -35vh;
+  margin-top: -25vh;
   opacity: 0;
   transition: opacity 0.3s, translate 0.5s;
 }
