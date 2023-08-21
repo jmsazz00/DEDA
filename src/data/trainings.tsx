@@ -1,6 +1,6 @@
 const trainings = [
   {
-    imageSrc: "./images/team.jpg",
+    imageSrc: "./images/cnc.jpg",
     title: "CNC - Industrial mechanic",
     maxTrainees: 15,
     description: (
@@ -38,7 +38,7 @@ const trainings = [
     year: "2022",
   },
   {
-    imageSrc: "./images/team.jpg",
+    imageSrc: "./images/maintenance.jpg",
     title: "Car Maintenance - Repair",
     maxTrainees: 56,
     description: (
@@ -75,10 +75,11 @@ const trainings = [
     ],
     duration: "4 Months",
     year: "2023",
+    warning: "Bundle of 4",
   },
   {
-    imageSrc: "./images/team.jpg",
-    title: "Hybrid - Electric cars (UPCOMING)",
+    imageSrc: "./images/hybrid.jpg",
+    title: "Hybrid / Electric cars - Motorcycles",
     maxTrainees: 25,
     description: (
       <div style={{ fontSize: "1.25rem" }}>
@@ -106,6 +107,7 @@ const trainings = [
     ],
     duration: "3 Months",
     year: "2024",
+    warning: "UPCOMING",
   },
 ];
 

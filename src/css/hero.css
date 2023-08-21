@@ -19,7 +19,6 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  /* background-position: center; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +27,8 @@
   transition: opacity 0.3s ease-in-out, visibility 0.3s;
 }
 
-.hero-container .image-slide:nth-of-type(3) {
+.hero-container .image-slide:nth-of-type(3),
+.hero-container .image-slide:nth-of-type(2) {
   background-position: center;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .hero__span {
-  translate: -40px;
+  translate: -32px;
   align-self: center;
   padding: 0.1rem 0.8rem !important;
   font-size: 1.4rem !important;

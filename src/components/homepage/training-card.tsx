@@ -9,6 +9,7 @@ interface Props {
   collaboratingCompanies: string[];
   description: string | JSX.Element;
   duration: string;
+  warning?: string;
 }
 
 const TrainingCard = ({
@@ -18,6 +19,7 @@ const TrainingCard = ({
   collaboratingCompanies,
   description,
   duration,
+  warning,
 }: Props) => {
   const [showDescription, setShowDescription] = useState(false);
 
@@ -29,6 +31,7 @@ const TrainingCard = ({
 
   return (
     <div className={`training-card ${showDescription ? "open" : ""}`}>
+      <div className="upcoming-content-arrow">{warning}</div>
       <div className="training-image">
         <img src={imageSrc} alt="Training" />
       </div>

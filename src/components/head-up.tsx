@@ -48,7 +48,12 @@ function HeadUp() {
     <div
       id="head-up"
       className="icon-container"
-      onClick={() => window.scroll(0, 0)}
+      onClick={() =>
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        })
+      }
     >
       <span>V</span>
     </div>
