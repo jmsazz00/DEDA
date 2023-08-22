@@ -51,7 +51,7 @@ const TrainingCard = ({
           </p>
         </div>
         <button className="btn donate-button" onClick={toggleDescription}>
-          {showDescription ? "Hide Description" : "Show Description"}
+          {showDescription ? "Hide" : "Learn More"}
         </button>
 
         <div className="training-description">{description}</div>
