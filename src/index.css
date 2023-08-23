@@ -141,7 +141,7 @@ h3 {
   text-align: center;
   margin-bottom: 4rem;
   margin-top: 2.5rem;
-  background: linear-gradient(135deg, #4c78a3, #5d88bd);
+  background: linear-gradient(135deg, #324759, #47657e);
   -webkit-background-clip: text; /* For Safari/Chrome */
   background-clip: text;
   color: transparent;
@@ -157,7 +157,7 @@ h3 {
   transform: translateX(-50%);
   width: 90px; /* Adjust the width of the border */
   height: 4px; /* Adjust the thickness of the border */
-  background-color: #4c78a3;
+  background-color: #47657e;
 }
 
 @media (min-width: 1028px) {
