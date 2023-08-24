@@ -19,7 +19,7 @@
 .contact-box {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(to bottom, #f5fbfe, #e0f5e0);
+  background-color: #f5fbfe;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px 0;
   color: #333;
