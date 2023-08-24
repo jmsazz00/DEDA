@@ -1,17 +1,11 @@
 [
     {
-        "sources" : true,
-        "jpg": "./images/p1.jpg",
         "src": "./images/p1.jpg"
     },
     {
-        "sources" : true,
-        "jpg": "./images/p4.jpg",
         "src": "./images/p4.jpg"
     },
     {
-        "sources" : true,
-        "jpg": "./images/p2.jpg",
         "src": "./images/p2.jpg"
     }
 ]

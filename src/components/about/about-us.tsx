@@ -76,9 +76,7 @@ const About = () => {
 
               return (
                 <picture className={"about__img " + cls}>
-                  {aw.sources && (
-                    <source type="./jpg" srcSet={`${aw.jpg} 1x`} />
-                  )}
+                  <source type="./jpg" srcSet={`${aw.src} 1x`} />
                   <img src={aw.src} alt="" />
                 </picture>
               );

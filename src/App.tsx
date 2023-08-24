@@ -2,11 +2,11 @@ import "./App.css";
 import About from "./components/about/about-us";
 import Contact from "./components/contact/contact-us";
 import Homepage from "./components/homepage/homepage";
-import NavBar from "./components/nav-bar";
+import NavBar from "./components/utilities/nav-bar";
 import News from "./components/news/news";
-import PageError from "./components/404-error";
-import HeadUp from "./components/head-up";
-import Copyright from "./components/copyright";
+import PageError from "./components/utilities/404-error";
+import HeadUp from "./components/utilities/head-up";
+import Copyright from "./components/utilities/copyright";
 import NewsBlock from "./components/news/news-block";
 import { Route, Routes } from "react-router-dom";
 

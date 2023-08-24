@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import news from "../../data/news";
-import PageError from "../404-error";
+import PageError from "../utilities/404-error";
 import NewsCard from "./news-card";
 import "../../css/news-block.css";
 import useScrollToTop from "../../hooks/useScrollToTop";

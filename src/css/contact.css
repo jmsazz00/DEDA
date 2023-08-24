@@ -144,46 +144,31 @@ span[class^="fa"] {
 .Toastify__toast--info {
   background-color: #3b82f6; /* Change the background color to a lighter blue */
   color: #ffffff; /* Set the text color to white to ensure readability */
-  font-family: Poppins, Arial, sans-serif; /* Optional: Change the font-family */
-  border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
-  max-width: 300px; /* Optional: Limit the width of the toast */
+  font-family: Poppins, Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
 }
 
 .Toastify__toast-body {
-  /* Optional: Add padding to the toast content */
   padding: 5px;
 }
 
 .Toastify__progress-bar {
-  /* Customize the progress bar color */
-  background-color: #a3bffb; /* Change the progress bar color to a lighter blue */
+  background-color: #a3bffb;
 }
 
-/* Customize the close button appearance */
 .Toastify__close-button {
-  color: #ffffff; /* Change the color of the close button icon */
-  opacity: 1; /* Make the close button always fully visible */
+  color: #ffffff;
+  opacity: 1;
 }
 
 .Toastify__close-button--default {
-  /* Add a background color to the close button */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* You can change this color to any desired color */
-  border-radius: 50%; /* Optional: Make the close button circular */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
   padding: 8px;
 }
 
 .Toastify__close-button--default:hover {
-  /* Change the close button background color on hover */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.3
-  ); /* You can change this color to any desired color */
+  background-color: rgba(255, 255, 255, 0.3);
 }

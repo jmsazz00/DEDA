@@ -1,13 +1,8 @@
 import { useEffect } from "react";
-import {
-  FiMapPin,
-  FiPhone,
-  FiMail,
-  FiFacebook,
-  FiInstagram,
-} from "react-icons/fi";
+import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { ToastContainer, toast } from "react-toastify";
 import { FieldValues, useForm } from "react-hook-form";
+import boxes from "../../data/contact-details";
 import "react-toastify/dist/ReactToastify.css";
 import "../../css/contact.css";
 
@@ -23,28 +18,8 @@ function Contact() {
     toast.info("Your message has been successfully sent!");
     reset();
 
-    // code to send the message to the NGO via a external library
+    // code to send the message to the NGO via an external library
   };
-
-  const style = { color: "#5b86e5", fontSize: "4.5em" };
-
-  const boxes = [
-    {
-      icon: <FiPhone style={style} />,
-      title: "phone number",
-      desc: " +961 01 883 939 - 01 901 271",
-    },
-    {
-      icon: <FiMail style={style} />,
-      title: "email",
-      desc: "n.naccache1@gmail.com (Nabil Naccache)",
-    },
-    {
-      icon: <FiMapPin style={style} />,
-      title: "address",
-      desc: "Beirut, Bauchrieh, Barbar Abou Jaoudeh street, Soft solutions’ building, 3rd floor",
-    },
-  ];
 
   useEffect(() => {
     toast.info("Thank you for reaching out to us!");

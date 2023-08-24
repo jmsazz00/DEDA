@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../css/head-up.css";
+import "../../css/head-up.css";
 
 function HeadUp() {
   let lastKnownScrollPosition = 0,

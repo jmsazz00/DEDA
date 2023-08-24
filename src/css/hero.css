@@ -30,7 +30,7 @@
 .hero-container .image-slide:nth-of-type(3),
 .hero-container .image-slide:nth-of-type(2) {
   background-position: center;
-}
+} /* for mobiles display */
 
 .hero-container .image-slide.active {
   opacity: 1;
@@ -78,7 +78,7 @@
   scale: 2.7;
   translate: 48px -7px;
   height: 100%;
-}
+} /* logo not flexible */
 
 .hero__span {
   translate: -32px;
