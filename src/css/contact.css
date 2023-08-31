@@ -123,7 +123,7 @@ span[class^="fa"] {
 
   .contacts-boxes {
     flex-direction: row;
-    transform: translateY(12%);
+    transform: translateY(11%);
     height: 318px;
   }
 

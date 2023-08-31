@@ -9,10 +9,12 @@ import HeadUp from "./components/utilities/head-up";
 import Copyright from "./components/utilities/copyright";
 import NewsBlock from "./components/news/news-block";
 import { Route, Routes } from "react-router-dom";
+import Header from "./components/utilities/header";
 
 function App() {
   return (
     <>
+      <Header />
       <NavBar />
       <HeadUp />
       <Routes>

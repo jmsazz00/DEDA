@@ -45,12 +45,6 @@ const Hero: React.FC = () => {
   return (
     <section>
       <div className="hero-container container">
-        <div className="hero__header">
-          <picture className="logo-div">
-            <img src="./images/logo.png" />
-          </picture>
-          <span className="btn btn--primary hero__span">NEW</span>
-        </div>
         <div
           className="image-container"
           onTouchStart={handleTouchStart}
