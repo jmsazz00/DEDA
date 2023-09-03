@@ -4,7 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 90%; /* Adjust the width as needed */
-  max-width: 450px; /* Set a maximum width to maintain a reasonable size */
+  max-width: 470px; /* Set a maximum width to maintain a reasonable size */
   background: linear-gradient(to right, #007bff, #00bfff);
   padding: 0.85rem 0.45rem;
   border-radius: 20px;
@@ -64,5 +64,11 @@ a i {
   .navbar li {
     margin: 0 1.5rem;
     font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar li {
+    font-size: 2rem;
   }
 }

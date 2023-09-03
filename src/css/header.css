@@ -1,13 +1,8 @@
-.hero__header {
+.header-block {
   position: relative;
-  width: 100vw;
-  height: 55px;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
 }
 
-.hero__header::before {
+.header-block::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -22,6 +17,14 @@
   opacity: 0.2;
 }
 
+.hero__header {
+  width: 100vw;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
 .logo-div {
   width: 55px;
 }
@@ -33,9 +36,24 @@
 } /* logo not flexible */
 
 .hero__span {
-  translate: -32px;
+  translate: -45px;
   align-self: center;
   padding: 0.1rem 0.8rem !important;
   font-size: 1.4rem !important;
   background-color: rgb(102, 218, 102) !important;
+}
+
+@media (min-width: 1440px) {
+  .hero__header {
+    height: 90px;
+  }
+
+  .logo-div img {
+    scale: 3;
+    translate: 60px -13px;
+  }
+
+  .hero__span {
+    font-size: 2rem !important;
+  }
 }

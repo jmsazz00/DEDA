@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section>
+    <section className="hero-block">
       <div className="hero-container container">
         <div
           className="image-container"

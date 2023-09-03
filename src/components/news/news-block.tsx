@@ -24,6 +24,7 @@ function NewsBlock() {
 
   return (
     <section className="news-item">
+      <div className="container">
       <NewsCard
         disabled={true}
         id={id}
@@ -36,6 +37,7 @@ function NewsBlock() {
         <button className="news__btn" onClick={handleGoBack}>
           All News
         </button>
+      </div>
       </div>
     </section>
   );

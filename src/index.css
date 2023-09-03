@@ -83,6 +83,12 @@ h3 {
   }
 }
 
+@media (min-width: 1440px) {
+  body {
+    font-size: 2.2rem;
+  } 
+}
+
 /* Blocks */
 
 .container {
@@ -163,6 +169,12 @@ h3 {
 @media (min-width: 1028px) {
   .link__heading {
     font-size: 4.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .link__heading {
+    font-size: 5.6rem;
   }
 }
 

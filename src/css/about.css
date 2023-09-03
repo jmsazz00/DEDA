@@ -96,7 +96,6 @@
 
 .about-us-container li {
   color: #333;
-  font-size: 18px;
   margin-bottom: 10px;
   padding-left: 40px;
   position: relative;
@@ -210,5 +209,27 @@
 
   .about__text {
     font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-us-container {
+    max-width: 850px;
+  }
+
+  .about-block {
+    max-width: 700px;
+  }
+
+  .about__title {
+    font-size: 6rem;
+  }
+
+  .about__text {
+    font-size: 2.2rem;
+  }
+
+  .about__heading {
+    font-size: 4rem;
   }
 }

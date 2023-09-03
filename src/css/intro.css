@@ -7,7 +7,11 @@
 }
 
 .intro__header {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+}
+
+.intro__header .link__heading {
+  margin-top: 4rem;
 }
 
 .intro__title {

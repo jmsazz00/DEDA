@@ -16,7 +16,7 @@ const boxes = [
   {
     icon: <FiMapPin style={style} />,
     title: "address",
-    desc: "Beirut, Bauchrieh, Barbar Abou Jaoudeh street, Soft solutions’ building, 3rd floor",
+    desc: "Beirut, Bauchrieh, Soft solutions’ building, 3rd floor",
   },
 ];
 

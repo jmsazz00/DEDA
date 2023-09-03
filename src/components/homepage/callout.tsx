@@ -9,9 +9,8 @@ function Callout() {
         <div className="callout__content">
           <h2 className="callout__title">willing to support our mission?</h2>
           <div className="callout__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-            fugiat cupiditate quis sint consequuntur autem nesciunt beatae
-            officia? Commodi, aperiam.
+            Participate in this life-changing journey for many Lebanese youth,
+            in order to build, together, a brighter, more prosperous future.
           </div>
         </div>
         <div className="callout__btn">
@@ -22,7 +21,7 @@ function Callout() {
             }}
             className="btn btn--block btn--primary"
           >
-            donate now
+            contact us
           </button>
         </div>
       </div>
