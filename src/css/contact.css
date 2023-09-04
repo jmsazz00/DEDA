@@ -113,11 +113,14 @@ span[class^="fa"] {
 }
 
 @media (min-width: 1024px) {
+  .contact .contact-form {
+    clip-path: none;
+  }
+
   .contact .contact__body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 8rem 8rem 3rem;
-    clip-path: none;
+    padding: 4rem 8rem 3rem;
   }
 
   .contact__title {

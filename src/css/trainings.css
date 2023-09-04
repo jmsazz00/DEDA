@@ -4,7 +4,7 @@
 }
 
 .trainings__list {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
   row-gap: 0.8rem !important;
@@ -28,5 +28,11 @@
 
   .trainings__filter {
     text-align: end;
+  }
+}
+
+@media (min-width: 1440px) {
+  .trainings__filter {
+    max-width: 1050px;
   }
 }

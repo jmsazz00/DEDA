@@ -113,3 +113,15 @@ button.donate-button:hover {
     transform: scale(1.03);
   }
 }
+
+@media (min-width: 1440px) {
+  .max-trainees,
+  .collaborating-companies,
+  .training-duration {
+    font-size: 1.65rem;
+  }
+
+  .training-title {
+    font-size: 2.8rem;
+  }
+}

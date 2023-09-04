@@ -29,10 +29,10 @@ function Contact() {
     <section>
       <div>
         <div className="contact">
-          <h2 className="link__heading" data-aos="flip-up">
-            Contact Us!
-          </h2>
           <div className="contact__header container">
+            <h2 className="link__heading" data-aos="flip-up">
+              Contact Us!
+            </h2>
             <div className="contacts-boxes">
               {boxes.map((b) => (
                 <div key={b.title} data-aos="zoom-in" className="contact-box">
@@ -43,7 +43,7 @@ function Contact() {
               ))}
             </div>
           </div>
-          <div className="contact-form">
+          <div className="contact-form block--skewed-left">
             <div className="contact__body container">
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-group">
