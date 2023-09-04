@@ -7,3 +7,8 @@
   margin-top: 0;
 }
 
+@media (min-width: 1440px) {
+  .news__body {
+    gap: 4.5rem !important;
+  }
+}

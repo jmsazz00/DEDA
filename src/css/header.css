@@ -49,11 +49,11 @@
   }
 
   .logo-div img {
-    scale: 3;
+    scale: 3.8;
     translate: 60px -13px;
   }
 
   .hero__span {
-    font-size: 2rem !important;
+    font-size: 1.85rem !important;
   }
 }

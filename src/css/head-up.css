@@ -22,6 +22,5 @@
 }
 
 #head-up:hover span {
-  transform: translateY(1px);
   color: #fff;
 }
