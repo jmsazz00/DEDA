@@ -30,13 +30,12 @@
 }
 
 .logo-div img {
-  transform: scale(2.7);
-  translate: 42px -7px;
+  transform: scale(2.7) translate(17px, -3px);
   height: 100%;
 } /* logo not flexible */
 
 .hero__span {
-  translate: -42px;
+  transform: translateX(-42px);
   align-self: center;
   padding: 0.1rem 0.8rem !important;
   font-size: 1.4rem !important;
@@ -49,8 +48,7 @@
   }
 
   .logo-div img {
-    transform: scale(3);
-    translate: 60px -13px;
+    transform: scale(2.85) translate(30px, -4px);
   }
 
   .hero__span {
