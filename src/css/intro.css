@@ -1,6 +1,7 @@
 .intro-block {
   background-color: #f2fff2;
   position: relative;
+  padding: 0;
 }
 
 .intro-block::before {
