@@ -1,3 +1,4 @@
+import useScrollToTop from "../../hooks/useScrollToTop";
 import Callout from "./callout";
 import Hero from "./hero";
 import Intro from "./intro";
@@ -5,6 +6,8 @@ import TestimonialCard from "./testimonial";
 import Trainings from "./trainings";
 
 function Homepage() {
+  useScrollToTop();
+  
   return (
     <>
       <Hero />

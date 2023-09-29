@@ -13,7 +13,12 @@
 
 .news-card--expanded {
   width: 100%;
-  max-width: 500px;
+  max-width: 375px;
+  margin-bottom: 1rem;
+}
+
+.news-card--expanded .image-container {
+  max-height: 200px;
 }
 
 .image-container {

@@ -6,10 +6,6 @@
   padding: 2rem 6rem;
 }
 
-.contact .link__heading {
-  margin-bottom: 0;
-}
-
 .contacts-boxes {
   display: flex;
   justify-content: center;
@@ -115,6 +111,10 @@ span[class^="fa"] {
 @media (min-width: 1024px) {
   .contact .contact-form {
     clip-path: none;
+  }
+
+  .contact .link__heading {
+    margin-bottom: 0;
   }
 
   .contact .contact__body {

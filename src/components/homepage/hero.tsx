@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="hero-block">
-      <div className="hero-container container">
+      <div className="hero-container">
         <div
           className="image-container"
           onTouchStart={handleTouchStart}

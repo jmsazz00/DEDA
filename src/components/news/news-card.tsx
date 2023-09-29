@@ -14,7 +14,7 @@ const NewsCard = ({ image, title, date, id, disabled }: Props) => {
     <article className="card-container">
       <div className={"news-card" + (disabled ? " news-card--expanded" : "")}>
         <div className="image-container">
-          <img src={"./images/" + image} alt="News Image" />
+          <img src={"/images/" + image} alt="News Image" />
           {!disabled && (
             <div className="overlay">
               <Link to={`${id}`} className="learn-more">

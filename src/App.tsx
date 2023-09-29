@@ -4,10 +4,10 @@ import Contact from "./components/contact/contact-us";
 import Homepage from "./components/homepage/homepage";
 import NavBar from "./components/utilities/nav-bar";
 import News from "./components/news/news";
+import NewsBlock from "./components/news/news-block";
 import PageError from "./components/utilities/404-error";
 import HeadUp from "./components/utilities/head-up";
 import Copyright from "./components/utilities/copyright";
-import NewsBlock from "./components/news/news-block";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/utilities/header";
 

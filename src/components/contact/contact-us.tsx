@@ -14,11 +14,22 @@ function Contact() {
 
   const { register, handleSubmit, reset } = useForm<FormData>();
 
-  let onSubmit = (data: FieldValues) => {
-    toast.info("Your message has been successfully sent!");
+  let onSubmit = async (data: FieldValues) => {
     reset();
+    
+    const response = await fetch('https://formspree.io/f/xleypnzq', {
+      method: 'POST',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
 
-    // code to send the message to the NGO via an external library
+    if (response.ok) {
+      toast.info("Your message has been successfully sent!");
+    } else {
+      toast.info("There has been an unexpected error!");
+    }
   };
 
   useEffect(() => {

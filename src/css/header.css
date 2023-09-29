@@ -30,16 +30,24 @@
 }
 
 .logo-div img {
-  transform: scale(2.7) translate(17px, -3px);
+  transform: scale(2.4) translate(17px, -3px);
   height: 100%;
 } /* logo not flexible */
 
-.hero__span {
-  transform: translateX(-42px);
+span.hero__span {
+  transform: translateX(-26px);
   align-self: center;
-  padding: 0.1rem 0.8rem !important;
-  font-size: 1.4rem !important;
-  background-color: rgb(102, 218, 102) !important;
+  text-transform: lowercase;
+  cursor: auto;
+  padding: 0.1rem 0.8rem;
+  font-size: 1.4rem;
+  background-color: rgb(102, 218, 102);
+}
+
+@media (min-width: 1028px) {
+  span.hero__span {
+    transform: translateX(-42px);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -48,10 +56,10 @@
   }
 
   .logo-div img {
-    transform: scale(2.85) translate(30px, -4px);
+    transform: scale(2.4) translate(30px, -4px);
   }
 
-  .hero__span {
-    font-size: 1.85rem !important;
+  span.hero__span {
+    font-size: 1.85rem;
   }
 }

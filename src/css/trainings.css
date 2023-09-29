@@ -23,7 +23,7 @@
 
 @media (min-width: 1028px) {
   .trainings-block .link__heading {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
 
   .trainings__filter {

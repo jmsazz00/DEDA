@@ -9,7 +9,7 @@ interface Props {
 const Pagination = ({ currentPage, totalPages, onPageChange }: Props) => {
   const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
 
-  return (
+  return pages.length <= 1 ? null : (
     <nav aria-label="Page navigation">
       <ul className="pagination-container">
         {pages.map((page) => (

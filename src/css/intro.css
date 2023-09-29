@@ -47,3 +47,9 @@
 .intro__paragraph:last-child::after {
   height: 0;
 }
+
+@media (min-width: 1440px) {
+  .intro__paragraph {
+    max-width: 1100px;
+  }
+}

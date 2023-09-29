@@ -7,7 +7,7 @@ function Header() {
         <picture className="logo-div">
           <img src="./images/logo.png" />
         </picture>
-        <span className="btn btn--primary hero__span">NEW</span>
+        <span className="btn btn--primary hero__span">v 1.0</span>
       </div>
     </section>
   );
