@@ -15,12 +15,12 @@ function Intro() {
         </div>
         <div className="intro__body">
           <p
-            className="intro__paragraph"
+            className="intro__paragraph intro--quote"
             data-aos="fade-right"
             style={{ fontStyle: "italic" }}
           >
             The Development and Environmental Development Association{" "}
-            <b>(DEDA) </b>
+            <b><u>(DEDA) </u></b>
             aims at empowering youth, workers to acquire skills and competencies
             that let them to increase their employability and build their
             future. The Association enhances its cooperation with the
