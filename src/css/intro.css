@@ -53,13 +53,13 @@
 }
 
 .intro__paragraph.intro--quote{ 
-  clip-path: polygon(0% 12%,45% 12%,50% 0%,55% 12%,100% 12%,100% 100%,0% 100%);
+  clip-path: polygon(0% 8%,45% 8%,50% 0%,55% 8%,100% 8%,100% 100%,0% 100%);
   background-color: #cdf9d8;
   border-radius: 12px;
-  padding: 6.5rem 2rem 2rem;
+  padding: 6rem 2rem 2rem;
   opacity: 0.8 !important;
   color: #777;
-  margin: 0 2.25rem;
+  margin: 0 1.85rem;
   margin-bottom: 5rem;
   border: 2.5px solid #9fd3ac;
 }
@@ -71,5 +71,6 @@
 
   .intro__paragraph.intro--quote{ 
     clip-path: polygon(0% 16%,60% 16%,64% 0%,65% 16%,100% 16%,100% 100%,0% 100%);
+    margin: 0 auto 5rem;
   }
 }
