@@ -53,12 +53,13 @@
 }
 
 .intro__paragraph.intro--quote{ 
-  clip-path: polygon(0% 14%,45% 14%,50% 0%,55% 14%,100% 14%,100% 100%,0% 100%);
+  clip-path: polygon(0% 12%,45% 12%,50% 0%,55% 12%,100% 12%,100% 100%,0% 100%);
   background-color: #cdf9d8;
   border-radius: 12px;
-  padding: 6rem 2rem 2rem;
+  padding: 6.5rem 2rem 2rem;
   opacity: 0.8 !important;
   color: #777;
+  margin: 0 2.25rem;
   margin-bottom: 5rem;
   border: 2.5px solid #9fd3ac;
 }
