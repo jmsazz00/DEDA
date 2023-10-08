@@ -16,7 +16,7 @@ function Intro() {
         <div className="intro__body">
           <p
             className="intro__paragraph intro--quote"
-            data-aos="fade-right"
+            data-aos="zoom-in"
             style={{ fontStyle: "italic" }}
           >
             The Development and Environmental Development Association{" "}
