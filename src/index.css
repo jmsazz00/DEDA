@@ -106,7 +106,7 @@ h3 {
 }
 
 .block--skewed-right {
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
   clip-path: polygon(0 0, 100% 0%, 100% 97%, 0% 100%);
 }
 

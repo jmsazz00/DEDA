@@ -1,6 +1,7 @@
 .accordion {
   border: 1px solid #ccc;
   margin: 1rem;
+  margin-left: .35rem;
   border-radius: 5px;
   overflow: hidden;
   height: max-content;
