@@ -9,14 +9,14 @@ function Header() {
     var reset = true;
     const handleScroll = () => {
       var st = window.scrollY || document.documentElement.scrollTop; 
-      if (reset && st > lastScrollTop) {
+      if (reset && st < lastScrollTop) {
         setIsFixed(true);
         reset = false;
         setTimeout(() => {
           setIsFixed(false);
           reset = true;
         }, 4000);
-      } else if (st < lastScrollTop) {
+      } else if (st > lastScrollTop) {
         setIsFixed(false);
       } 
       lastScrollTop = st <= 0 ? 0 : st
