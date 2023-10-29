@@ -5,22 +5,26 @@ function Header() {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
-    var lastScrollTop = 0;
-    var reset = true;
+    let lastScrollTop = 0;
+    let reset = true;  // to avoid multiple timeouts
+
     const handleScroll = () => {
-      var st = window.scrollY || document.documentElement.scrollTop; 
+      let st = window.scrollY || document.documentElement.scrollTop;
+
       if (reset && st < lastScrollTop) {
         setIsFixed(true);
         reset = false;
         setTimeout(() => {
           setIsFixed(false);
           reset = true;
-        }, 4000);
-      } else if (st > lastScrollTop) {
+        }, 4500);
+      }
+
+      else if (st > lastScrollTop) {
         setIsFixed(false);
       } 
       lastScrollTop = st <= 0 ? 0 : st
-    };
+      };
 
     window.addEventListener('scroll', handleScroll);
 
