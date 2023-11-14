@@ -6,7 +6,7 @@ interface Image {
 
 const images: Image[] = [
   {
-    url: "./images/meet2.jpg",
+    url: "./images/meet3.jpg",
     heading: "Professional trainings",
     description: "Concise instructions",
   },

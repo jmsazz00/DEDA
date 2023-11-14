@@ -32,7 +32,7 @@
 .testemonial__speech {
   font-style: italic;
   text-align: center;
-  font-size: 1.56rem;
+  font-size: 1.36rem;
   margin: 1.25rem 0;
 }
 
@@ -114,6 +114,7 @@
 
   .testemonial__speech {
     margin-top: 0;
+    font-size: 1.56rem;
   }
 
   .author__name {
