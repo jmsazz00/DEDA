@@ -77,14 +77,14 @@
     100% 100%,
     0% 100%
   );
-  background-color: #cdf9d8;
+  background: linear-gradient(135deg, #cdf9d8, #d8f9e8);
   border-radius: 12px;
   padding: 6rem 2rem 2rem;
   opacity: 0.8 !important;
-  color: #777;
+  color: #444;
   margin: 0 1.85rem;
   margin-bottom: 5rem;
-  border: 2.5px solid #9fd3ac;
+  border: 2px solid #9fd3ac;
 }
 
 @media (min-width: 1024px) {
