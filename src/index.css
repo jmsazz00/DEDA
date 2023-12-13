@@ -38,6 +38,7 @@ body {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+  text-align: justify;
   overflow-x: hidden;
 }
 
@@ -45,7 +46,7 @@ h1,
 h2,
 h3 {
   color: var(--color-heading);
-  font-family: Cairo, Helvetica, sans-serif;
+  font-family: Raleway, Helvetica, sans-serif;
   letter-spacing: -0.8px;
   word-spacing: 2px;
   line-height: 1.1;
@@ -142,11 +143,11 @@ h3 {
 }
 
 .link__heading {
-  font-size: 4rem;
+  font-size: 4.6rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 5rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   background: linear-gradient(135deg, #324759, #47657e);
   -webkit-background-clip: text; /* For Safari/Chrome */
   background-clip: text;
@@ -168,7 +169,7 @@ h3 {
 
 @media (min-width: 1028px) {
   .link__heading {
-    font-size: 4.4rem;
+    font-size: 5rem;
   }
 }
 

@@ -19,7 +19,7 @@
 
 @keyframes slideDown {
   0% {
-    top: -100px;
+    top: -80px;
   }
   100% {
     top: 0;
@@ -27,10 +27,10 @@
 }
 @keyframes slideUp {
   0% {
-    top: -8px;
+    top: -12px;
   }
   100% {
-    top: -100px;
+    top: -80px;
   }
 }
 
@@ -84,7 +84,7 @@ span.hero__span {
 
 @media (min-width: 1440px) {
   .hero__header {
-    height: 90px;
+    height: 75px;
   }
 
   .logo-div img {

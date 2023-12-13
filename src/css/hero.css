@@ -47,11 +47,11 @@
 
 .hero-container .image-content {
   text-align: center;
-  color: white;
+  color: #f0f0f0;
 }
 
 .hero-container .image__title {
-  color: #fff;
+  color: #f0f0f0;
 }
 
 @media (min-width: 1028px) {
@@ -71,6 +71,6 @@
 
 @media (min-width: 1440px) {
   .hero-container {
-    --height: 90px;
+    --height: 75px;
   }
 }
