@@ -32,7 +32,7 @@ const About = () => {
 
   return (
     <section className="about-us-block">
-      <div className="about-us-container">
+      <div className="about-us-container text-justify">
         <h1 className="about__title" data-aos="zoom-out">
           Welcome to Our NGO!
         </h1>

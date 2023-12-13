@@ -19,6 +19,10 @@
   background-color: #2980b9;
 }
 
+.news-item__content {
+  text-align: justify;
+}
+
 .news__btn:focus {
   outline: none; /* Remove the default focus outline */
 }

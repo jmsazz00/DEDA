@@ -21,7 +21,7 @@ const Accordion = ({ title, content }: Props) => {
         </h2>
         <span className={`accordion-icon`}>{expanded ? "-" : "+"}</span>
       </div>
-      <div className="accordion-content">{content}</div>
+      <div className="accordion-content text-justify">{content}</div>
     </div>
   );
 };

@@ -15,7 +15,7 @@ function Intro() {
         </div>
         <div className="intro__body">
           <p
-            className="intro__paragraph intro--quote"
+            className="intro__paragraph intro--quote text-justify"
             data-aos="zoom-in"
             style={{ fontStyle: "italic" }}
           >
