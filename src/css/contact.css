@@ -3,7 +3,11 @@
 }
 
 .contact__header {
-  padding: 2rem 6rem;
+  padding: 0 6rem;
+}
+
+.contact .link__heading {
+  margin: 2rem;
 }
 
 .contacts-boxes {
