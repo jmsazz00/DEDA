@@ -19,8 +19,7 @@ function Intro() {
             data-aos="zoom-in"
             style={{ fontStyle: "italic" }}
           >
-            The Development and Environmental Development Association{" "}
-            <b><u>(DEDA) </u></b>
+            The Development and Environmental Development Association
             aims at empowering youth, workers to acquire skills and competencies
             that let them to increase their employability and build their
             future. The Association enhances its cooperation with the
