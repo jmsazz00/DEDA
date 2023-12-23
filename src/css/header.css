@@ -2,36 +2,19 @@
   position: relative;
   z-index: 99;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: top 1.5s cubic-bezier(0.4,0,0.2,1);
 }
 
 .header-block.fixed {
   background-color: #fff;
   position: sticky;
   top: 0;
-  animation: slideDown 1s ease-in-out;
 }
 
 .header-block.goUp {
   background-color: #fff;
   position: sticky;
-  animation: slideUp .5s ease-in;
-}
-
-@keyframes slideDown {
-  0% {
-    top: -80px;
-  }
-  100% {
-    top: 0;
-  }
-}
-@keyframes slideUp {
-  0% {
-    top: -12px;
-  }
-  100% {
-    top: -80px;
-  }
+  top: -100%;
 }
 
 .header-block::before {
