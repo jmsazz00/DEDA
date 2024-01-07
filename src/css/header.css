@@ -1,4 +1,5 @@
 .header-block {
+  background: linear-gradient(to right, #f5fff5, #ebf7fd);
   position: relative;
   z-index: 99;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -17,13 +18,15 @@
   top: -100%;
 }
 
-.header-block::before {
+.header-block::after {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #B0E57C, #9accea);
-  opacity: 0.2;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px; /* Adjust the width of the stripe */
+  background: #fff; /* Background color of the stripe */
+  box-shadow: 0 0 5px rgba(173, 216, 230, 0.8);
 }
 
 .hero__header {
@@ -50,7 +53,11 @@ span.hero__span {
   cursor: auto;
   padding: 0.1rem 0.8rem;
   font-size: 1.4rem;
-  background-color: #63e8ff;
+  background-color: #7ebbe6;
+}
+
+span.hero__span:hover {
+  background-color: #7ebbe6;
 }
 
 @media (min-width: 1028px) {
