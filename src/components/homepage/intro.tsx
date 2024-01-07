@@ -28,7 +28,7 @@ function Intro() {
             requirements of the employers, the matter that results mostly in
             employing the trained people.
           </p>
-
+          <div className="grid grid--3x">
           <div className="intro__paragraph">
             <PiArrowFatLinesRightFill style={style} />
             <Accordion
@@ -136,6 +136,7 @@ function Intro() {
                 </>
               }
             />
+          </div>
           </div>
         </div>
       </div>

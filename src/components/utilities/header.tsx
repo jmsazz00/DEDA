@@ -17,7 +17,7 @@ function Header() {
         setTimeout(() => {
           setIsFixed(false);
           reset = true;
-        }, 3500);
+        }, 10000);
       }
 
       else if (st > lastScrollTop) {
