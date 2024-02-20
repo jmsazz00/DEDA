@@ -57,6 +57,10 @@
 }
 
 @media (min-width: 1028px) {
+  .hero-container {
+    height: calc(100vh - (var(--height)));
+  }
+
   .hero-container .image-slide {
     background-position: center;
   }
